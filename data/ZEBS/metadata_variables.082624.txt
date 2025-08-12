@@ -1,0 +1,93 @@
+metadata_variable	type	baseline	useForPERMANOVA	useForLCA	useForNB
+ID1	character		no		no
+Collection.Date	character		no		no
+Visit	factor	1 Wk	yes		yes
+Group	factor	HUU-Survived	yes		yes
+Group2	factor	HUU	no		no
+Group3	factor	HUU	no		no
+HIVExposure	factor	Unexposed	no		no
+HIVExposure2	factor	Unexposed	no		no
+SampleID	character		no		no
+MOMAGE	numeric		no		no
+log10vlrna	numeric		no		no
+delgage	numeric		no		no
+MODE	factor	1	no		no
+lnvis	factor		no		no
+fpvis	factor		no		no
+lnage	numeric		no		no
+fpage	numeric		no		no
+HGB	numeric		no		no
+CD4C	numeric		no		no
+CD8C	numeric		no		no
+CD3C	numeric		no		no
+PREVPREG	numeric		no		no
+PREVMULT	numeric		no		no
+PRELIVE	numeric		no		no
+PRESTILL	numeric		no		no
+PREMIS	numeric		no		no
+NUMLIVE	numeric		no		no
+NUMDIED	numeric		no		no
+BWT	numeric		no		no
+SEX	factor	1	yes		no
+CD4_12M	numeric		no		no
+CD8_12M	numeric		no		no
+CD3_12M	numeric		no		no
+rna4m	numeric		no		no
+rna12m	numeric		no		no
+cd	factor	0	no		no
+md	factor	0	no		no
+timec	numeric		no		no
+timem	numeric		no		no
+bf	factor		no		no
+bftime	numeric		no		no
+bm_vl_valid	factor	FALSE	no		no
+bm_vl_undetectable	factor	FALSE	no		no
+bm_vl_log10	numeric		no		no
+AgeAtVisit	numeric		no		no
+PrePost	factor	Post	no		no
+CurrentBF	factor	Yes	no		no
+DaysSinceBFStopped	numeric		no		no
+weight	numeric		no		no
+hmo	numeric		no		no
+flac2	numeric		no		no
+flac3	numeric		no		no
+slac3	numeric		no		no
+lnt	numeric		no		no
+lnnt	numeric		no		no
+lnfp1	numeric		no		no
+lnfp2	numeric		no		no
+secretor	factor	0	no		no
+lewis	factor	0	no		no
+cd4c_50	numeric		no		no
+logv	numeric		no		no
+infants	numeric		no		no
+lnfp3	numeric		no		no
+lnfp2_3	numeric		no		no
+oligo	numeric		no		no
+hiv	numeric		no		no
+hiv1	numeric		no		no
+hiv2	numeric		no		no
+hiv3	numeric		no		no
+logvlrna	numeric		no		no
+logflac2	numeric		no		no
+logflac3	numeric		no		no
+logslac3	numeric		no		no
+loglnt	numeric		no		no
+loglnnt	numeric		no		no
+loglnfp1	numeric		no		no
+loglnfp2	numeric		no		no
+loghmo	numeric		no		no
+hmb_m	numeric		no		no
+bmi	numeric		no		no
+flac2_impu	numeric		no		no
+flac3_impu	numeric		no		no
+lnnt_impu	numeric		no		no
+lnfp1_impu	numeric		no		no
+lnfp2_impu	numeric		no		no
+hmo_impu	numeric		no		no
+logflac2_impu	numeric		no		no
+logflac3_impu	numeric		no		no
+loglnnt_impu	numeric		no		no
+loglnfp1_impu	numeric		no		no
+loglnfp2_impu	numeric		no		no
+loghmo_impu	numeric		no		no

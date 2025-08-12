@@ -1,0 +1,251 @@
+Unique Tube Label ID	Client Sample ID	Client Matrix	Time Point	Subject or Animal ID	SampleID	Group	Group 2	Manifest Sample Number	Analyte Name	Dilution Factor	Calculated Concentration (ug/mL)	LLOQ	ULOQ	BLOQ/ALOQ	Kynurenine-Tryptophan Ratio	Sample Comment
+10010 09/Oct/2001	UCVA-04684	Whole Breast Milk	4 Mo	10010	10010.10092001	HEU-Died-12	HEU-Died	53	L-kynurenine	1	0.212	0.0250	10.0	 	0.796	
+10010 09/Oct/2001	UCVA-04684	Whole Breast Milk	4 Mo	10010	10010.10092001	HEU-Died-12	HEU-Died	53	L-tryptophan	1	0.266	0.200	80.0	 	0.796	
+10530 14/Jun/2002	UCVA-03554	Whole Breast Milk	4 Mo	10530	10530.06142002	HUU-Survived	HUU	1	L-kynurenine	1	0.169	0.0250	10.0	 	0.258	
+10530 14/Jun/2002	UCVA-03554	Whole Breast Milk	4 Mo	10530	10530.06142002	HUU-Survived	HUU	1	L-tryptophan	1	0.656	0.200	80.0	 	0.258	
+10640 08/May/2002	UCVA-04473	Whole Breast Milk	4 Mo	10640	10640.05082002	HUU-Survived	HUU	14	L-kynurenine	1	0.0955	0.0250	10.0	 	0.328	
+10640 08/May/2002	UCVA-04473	Whole Breast Milk	4 Mo	10640	10640.05082002	HUU-Survived	HUU	14	L-tryptophan	1	0.291	0.200	80.0	 	0.328	
+10650 29/May/2002	UCVA-03563	Whole Breast Milk	4 Mo	10650	10650.05292002	HEU-Died-12	HEU-Died	42	L-kynurenine	1	0.205	0.0250	10.0	 	0.688	
+10650 29/May/2002	UCVA-03563	Whole Breast Milk	4 Mo	10650	10650.05292002	HEU-Died-12	HEU-Died	42	L-tryptophan	1	0.298	0.200	80.0	 	0.688	
+10710 25-Apr-02	UCVA-04166	Whole Breast Milk	4 Mo	10710	10710.04252002	HEU-Died-24	HEU-Died	49	L-kynurenine	1	0.0536	0.0250	10.0	 	0.226	
+10710 25-Apr-02	UCVA-04166	Whole Breast Milk	4 Mo	10710	10710.04252002	HEU-Died-24	HEU-Died	49	L-tryptophan	1	0.237	0.200	80.0	 	0.226	
+10780 28-May-02	UCVA-05074	Whole Breast Milk	4 Mo	10780	10780.05282002	HEU-Died-24	HEU-Died	58	L-kynurenine	1	0.0325	0.0250	10.0	 	0.208	
+10780 28-May-02	UCVA-05074	Whole Breast Milk	4 Mo	10780	10780.05282002	HEU-Died-24	HEU-Died	58	L-tryptophan	1	0.156	0.200	80.0	BLOQ	0.208	
+10850 11/Jun/2002	UCVA-04688	Whole Breast Milk	4 Mo	10850	10850.06112002	HUU-Survived	HUU	17	L-kynurenine	1	0.0507	0.0250	10.0	 	0.0749	
+10850 11/Jun/2002	UCVA-04688	Whole Breast Milk	4 Mo	10850	10850.06112002	HUU-Survived	HUU	17	L-tryptophan	1	0.677	0.200	80.0	 	0.0749	
+10880 01/Aug/2002	UCVA-04057	Whole Breast Milk	4 Mo	10880	10880.08012002	HEU-Died-12	HEU-Died	48	L-kynurenine	1	0.122	0.0250	10.0	 	0.384	
+10880 01/Aug/2002	UCVA-04057	Whole Breast Milk	4 Mo	10880	10880.08012002	HEU-Died-12	HEU-Died	48	L-tryptophan	1	0.318	0.200	80.0	 	0.384	
+10890 19/Jun/2002	UCVA-03703	Whole Breast Milk	4 Mo	10890	10890.06192002	HUU-Survived	HUU	3	L-kynurenine	1	0.0300	0.0250	10.0	 	0.0437	
+10890 19/Jun/2002	UCVA-03703	Whole Breast Milk	4 Mo	10890	10890.06192002	HUU-Survived	HUU	3	L-tryptophan	1	0.687	0.200	80.0	 	0.0437	
+10930 26/Jun/2002	UCVA-05002	Whole Breast Milk	4 Mo	10930	10930.06262002	HUU-Survived	HUU	21	L-kynurenine	1	0.0465	0.0250	10.0	 	0.110	
+10930 26/Jun/2002	UCVA-05002	Whole Breast Milk	4 Mo	10930	10930.06262002	HUU-Survived	HUU	21	L-tryptophan	1	0.422	0.200	80.0	 	0.110	
+10930 26/Jun/2002		Plasma	4 Mo	10930	10930.06262002.Plasma	HUU		102	L-kynurenine	1	0.209	0.0250	10.0	 	0.0363	
+10930 26/Jun/2002		Plasma	4 Mo	10930	10930.06262002.Plasma	HUU		102	L-tryptophan	1	5.76	0.200	80.0	 	0.0363	
+10980 16/Jul/2002	UCVA-04824	Whole Breast Milk	4 Mo	10980	10980.07162002	HUU-Survived	HUU	19	L-kynurenine	1	0.0693	0.0250	10.0	 	0.217	
+10980 16/Jul/2002	UCVA-04824	Whole Breast Milk	4 Mo	10980	10980.07162002	HUU-Survived	HUU	19	L-tryptophan	1	0.320	0.200	80.0	 	0.217	
+10980 16/Jul/2002		Plasma	4 Mo	10980	10980.07162002.Plasma	HUU		103	L-kynurenine	1	0.423	0.0250	10.0	 	0.0552	
+10980 16/Jul/2002		Plasma	4 Mo	10980	10980.07162002.Plasma	HUU		103	L-tryptophan	1	7.66	0.200	80.0	 	0.0552	
+11100 08/Aug/2002	UCVA-05084	Whole Breast Milk	4 Mo	11100	11100.08082002	HEU-Died-12	HEU-Died	59	L-kynurenine	1	0.165	0.0250	10.0	 	0.500	
+11100 08/Aug/2002	UCVA-05084	Whole Breast Milk	4 Mo	11100	11100.08082002	HEU-Died-12	HEU-Died	59	L-tryptophan	1	0.330	0.200	80.0	 	0.500	
+11340 16/Dec/2002	UCVA-03839	Whole Breast Milk	4 Mo	11340	11340.12162002	HEU-Survived	HEU-Survived	66	L-kynurenine	1	0.294	0.0250	10.0	 	0.676	
+11340 16/Dec/2002	UCVA-03839	Whole Breast Milk	4 Mo	11340	11340.12162002	HEU-Survived	HEU-Survived	66	L-tryptophan	1	0.434	0.200	80.0	 	0.676	
+11480 25/Nov/2002	UCVA-04755	Whole Breast Milk	4 Mo	11480	11480.11252002	HUU-Survived	HUU	18	L-kynurenine	1	0.109	0.0250	10.0	 	0.176	
+11480 25/Nov/2002	UCVA-04755	Whole Breast Milk	4 Mo	11480	11480.11252002	HUU-Survived	HUU	18	L-tryptophan	1	0.620	0.200	80.0	 	0.176	
+11480 25/Nov/2002		Plasma	4 Mo	11480	11480.11252002.Plasma	HUU		104	L-kynurenine	1	0.433	0.0250	10.0	 	0.0447	
+11480 25/Nov/2002		Plasma	4 Mo	11480	11480.11252002.Plasma	HUU		104	L-tryptophan	1	9.69	0.200	80.0	 	0.0447	
+11580 14-Jan-03	UCVA-04257	Whole Breast Milk	4 Mo	11580	11580.01142003	PostpartumTransmission24	PostpartumTransmission	89	L-kynurenine	1	0.106	0.0250	10.0	 	0.528	
+11580 14-Jan-03	UCVA-04257	Whole Breast Milk	4 Mo	11580	11580.01142003	PostpartumTransmission24	PostpartumTransmission	89	L-tryptophan	1	0.201	0.200	80.0	 	0.528	
+11690 15/Oct/2002	UCVA-04615	Whole Breast Milk	4 Mo	11690	11690.10152002	EarlyMucosalTransmission	EarlyMucosalTransmission	36	L-kynurenine	1	0.111	0.0250	10.0	 	0.407	
+11690 15/Oct/2002	UCVA-04615	Whole Breast Milk	4 Mo	11690	11690.10152002	EarlyMucosalTransmission	EarlyMucosalTransmission	36	L-tryptophan	1	0.273	0.200	80.0	 	0.407	
+11750 27-Nov-02	UCVA-04265	Whole Breast Milk	4 Mo	11750	11750.11272002	PostpartumTransmission24	PostpartumTransmission	90	L-kynurenine	1	0.136	0.0250	10.0	 	0.322	
+11750 27-Nov-02	UCVA-04265	Whole Breast Milk	4 Mo	11750	11750.11272002	PostpartumTransmission24	PostpartumTransmission	90	L-tryptophan	1	0.422	0.200	80.0	 	0.322	
+11910 28-Jan-03	UCVA-04942	Whole Breast Milk	4 Mo	11910	11910.01282003	HEU-Died-24	HEU-Died	56	L-kynurenine	1	0.102	0.0250	10.0	 	0.172	
+11910 28-Jan-03	UCVA-04942	Whole Breast Milk	4 Mo	11910	11910.01282003	HEU-Died-24	HEU-Died	56	L-tryptophan	1	0.592	0.200	80.0	 	0.172	
+12260 07/Apr/2003	UCVA-04718	Whole Breast Milk	4 Mo	12260	12260.04072003	PostpartumTransmission12	PostpartumTransmission	99	L-kynurenine	1	0.402	0.0250	10.0	 	1.99	
+12260 07/Apr/2003	UCVA-04718	Whole Breast Milk	4 Mo	12260	12260.04072003	PostpartumTransmission12	PostpartumTransmission	99	L-tryptophan	1	0.202	0.200	80.0	 	1.99	
+12320 28/Mar/2003	UCVA-03659	Whole Breast Milk	4 Mo	12320	12320.03282003	HEU-Died-12	HEU-Died	43	L-kynurenine	1	0.0723	0.0250	10.0	 	0.193	
+12320 28/Mar/2003	UCVA-03659	Whole Breast Milk	4 Mo	12320	12320.03282003	HEU-Died-12	HEU-Died	43	L-tryptophan	1	0.374	0.200	80.0	 	0.193	
+12930 06/May/2003	UCVA-04508	Whole Breast Milk	4 Mo	12930	12930.05062003	HEU-Survived	HEU-Survived	74	L-kynurenine	1	0.267	0.0250	10.0	 	0.531	
+12930 06/May/2003	UCVA-04508	Whole Breast Milk	4 Mo	12930	12930.05062003	HEU-Survived	HEU-Survived	74	L-tryptophan	1	0.502	0.200	80.0	 	0.531	
+13000 20/May/2003	UCVA-04579	Whole Breast Milk	4 Mo	13000	13000.05202003	PostpartumTransmission12	PostpartumTransmission	94	L-kynurenine	1	0.227	0.0250	10.0	 	0.806	
+13000 20/May/2003	UCVA-04579	Whole Breast Milk	4 Mo	13000	13000.05202003	PostpartumTransmission12	PostpartumTransmission	94	L-tryptophan	1	0.281	0.200	80.0	 	0.806	
+13140 18/Mar/2003	UCVA-04788	Whole Breast Milk	4 Mo	13140	13140.03182003	EarlyMucosalTransmission	EarlyMucosalTransmission	37	L-kynurenine	1	0.347	0.0250	10.0	 	0.340	
+13140 18/Mar/2003	UCVA-04788	Whole Breast Milk	4 Mo	13140	13140.03182003	EarlyMucosalTransmission	EarlyMucosalTransmission	37	L-tryptophan	1	1.02	0.200	80.0	 	0.340	
+13200 23/May/2003	UCVA-04400	Whole Breast Milk	4 Mo	13200	13200.05232003	HEU-Died-12	HEU-Died	52	L-kynurenine	1	0.244	0.0250	10.0	 	0.410	
+13200 23/May/2003	UCVA-04400	Whole Breast Milk	4 Mo	13200	13200.05232003	HEU-Died-12	HEU-Died	52	L-tryptophan	1	0.595	0.200	80.0	 	0.410	
+13220 13/Jun/2003	UCVA-04294	Whole Breast Milk	4 Mo	13220	13220.06132003	EarlyMucosalTransmission	EarlyMucosalTransmission	32	L-kynurenine	1	0.194	0.0250	10.0	 	0.642	
+13220 13/Jun/2003	UCVA-04294	Whole Breast Milk	4 Mo	13220	13220.06132003	EarlyMucosalTransmission	EarlyMucosalTransmission	32	L-tryptophan	1	0.302	0.200	80.0	 	0.642	
+13310 03/Sep/2003	UCVA-03919	Whole Breast Milk	4 Mo	13310	13310.09032003	PostpartumTransmission12	PostpartumTransmission	87	L-kynurenine	1	0.106	0.0250	10.0	 	0.206	
+13310 03/Sep/2003	UCVA-03919	Whole Breast Milk	4 Mo	13310	13310.09032003	PostpartumTransmission12	PostpartumTransmission	87	L-tryptophan	1	0.516	0.200	80.0	 	0.206	
+13630 02/Jul/2003	UCVA-04721	Whole Breast Milk	4 Mo	13630	13630.07022003	HEU-Survived	HEU-Survived	79	L-kynurenine	1	0.155	0.0250	10.0	 	0.707	
+13630 02/Jul/2003	UCVA-04721	Whole Breast Milk	4 Mo	13630	13630.07022003	HEU-Survived	HEU-Survived	79	L-tryptophan	1	0.219	0.200	80.0	 	0.707	
+13630 02/Jul/2003		Plasma	4 Mo	13630	13630.07022003.Plasma	HEU-Survived		105	L-kynurenine	1	0.344	0.0250	10.0	 	0.146	
+13630 02/Jul/2003		Plasma	4 Mo	13630	13630.07022003.Plasma	HEU-Survived		105	L-tryptophan	1	2.36	0.200	80.0	 	0.146	
+13710 06/Aug/2003	UCVA-04450	Whole Breast Milk	4 Mo	13710	13710.08062003	EarlyMucosalTransmission	EarlyMucosalTransmission	34	L-kynurenine	1	0.422	0.0250	10.0	 	0.557	
+13710 06/Aug/2003	UCVA-04450	Whole Breast Milk	4 Mo	13710	13710.08062003	EarlyMucosalTransmission	EarlyMucosalTransmission	34	L-tryptophan	1	0.758	0.200	80.0	 	0.557	
+14310 16/Jan/2004	UCVA-03860	Whole Breast Milk	4 Mo	14310	14310.01162004	HUU-Survived	HUU	6	L-kynurenine	1	0.129	0.0250	10.0	 	0.759	
+14310 16/Jan/2004	UCVA-03860	Whole Breast Milk	4 Mo	14310	14310.01162004	HUU-Survived	HUU	6	L-tryptophan	1	0.170	0.200	80.0	BLOQ	0.759	
+14310 16/Jan/2004		Plasma	4 Mo	14310	14310.01162004.Plasma	HUU		106	L-kynurenine	1	0.194	0.0250	10.0	 	0.0456	
+14310 16/Jan/2004		Plasma	4 Mo	14310	14310.01162004.Plasma	HUU		106	L-tryptophan	1	4.25	0.200	80.0	 	0.0456	
+14560 13/Apr/2004	UCVA-04371	Whole Breast Milk	4 Mo	14560	14560.04132004	HUU-Survived	HUU	12	L-kynurenine	1	0.238	0.0250	10.0	 	0.309	
+14560 13/Apr/2004	UCVA-04371	Whole Breast Milk	4 Mo	14560	14560.04132004	HUU-Survived	HUU	12	L-tryptophan	1	0.769	0.200	80.0	 	0.309	
+14560 13/Apr/2004		Plasma	4 Mo	14560	14560.04132004.Plasma	HUU		107	L-kynurenine	1	0.586	0.0250	10.0	 	0.0543	
+14560 13/Apr/2004		Plasma	4 Mo	14560	14560.04132004.Plasma	HUU		107	L-tryptophan	1	10.8	0.200	80.0	 	0.0543	
+14640 05/Jan/2004	UCVA-04232	Whole Breast Milk	4 Mo	14640	14640.01052004	EarlyMucosalTransmission	EarlyMucosalTransmission	31	L-kynurenine	1	0.0676	0.0250	10.0	 	NQ	
+14640 05/Jan/2004	UCVA-04232	Whole Breast Milk	4 Mo	14640	14640.01052004	EarlyMucosalTransmission	EarlyMucosalTransmission	31	L-tryptophan	1	NQ	0.200	80.0	 	NQ	
+14930 13/Apr/2004	UCVA-05089	Whole Breast Milk	4 Mo	14930	14930.04132004	EarlyMucosalTransmission	EarlyMucosalTransmission	41	L-kynurenine	1	0.269	0.0250	10.0	 	0.901	
+14930 13/Apr/2004	UCVA-05089	Whole Breast Milk	4 Mo	14930	14930.04132004	EarlyMucosalTransmission	EarlyMucosalTransmission	41	L-tryptophan	1	0.298	0.200	80.0	 	0.901	
+15130 23/Jun/2004	UCVA-04024	Whole Breast Milk	4 Mo	15130	15130.06232004	EarlyMucosalTransmission	EarlyMucosalTransmission	28	L-kynurenine	1	0.105	0.0250	10.0	 	0.413	
+15130 23/Jun/2004	UCVA-04024	Whole Breast Milk	4 Mo	15130	15130.06232004	EarlyMucosalTransmission	EarlyMucosalTransmission	28	L-tryptophan	1	0.254	0.200	80.0	 	0.413	
+15270 19/Apr/2004	UCVA-03574	Whole Breast Milk	4 Mo	15270	15270.04192004	PostpartumTransmission12	PostpartumTransmission	82	L-kynurenine	1	0.147	0.0250	10.0	 	0.434	
+15270 19/Apr/2004	UCVA-03574	Whole Breast Milk	4 Mo	15270	15270.04192004	PostpartumTransmission12	PostpartumTransmission	82	L-tryptophan	1	0.339	0.200	80.0	 	0.434	
+15430 29/Jun/2004	UCVA-04703	Whole Breast Milk	4 Mo	15430	15430.06292004	HEU-Survived	HEU-Survived	78	L-kynurenine	1	0.0568	0.0250	10.0	 	0.149	
+15430 29/Jun/2004	UCVA-04703	Whole Breast Milk	4 Mo	15430	15430.06292004	HEU-Survived	HEU-Survived	78	L-tryptophan	1	0.382	0.200	80.0	 	0.149	
+15430 29/Jun/2004		Plasma	4 Mo	15430	15430.06292004.Plasma	HEU-Survived		108	L-kynurenine	1	0.582	0.0250	10.0	 	0.0819	
+15430 29/Jun/2004		Plasma	4 Mo	15430	15430.06292004.Plasma	HEU-Survived		108	L-tryptophan	1	7.11	0.200	80.0	 	0.0819	
+16250 15/Dec/2004	UCVA-04334	Whole Breast Milk	4 Mo	16250	16250.12152004	HEU-Survived	HEU-Survived	68	L-kynurenine	1	0.0428	0.0250	10.0	 	0.202	
+16250 15/Dec/2004	UCVA-04334	Whole Breast Milk	4 Mo	16250	16250.12152004	HEU-Survived	HEU-Survived	68	L-tryptophan	1	0.211	0.200	80.0	 	0.202	
+16250 15/Dec/2004		Plasma	4 Mo	16250	16250.12152004.Plasma	HEU-Survived		109	L-kynurenine	1	0.284	0.0250	10.0	 	0.180	
+16250 15/Dec/2004		Plasma	4 Mo	16250	16250.12152004.Plasma	HEU-Survived		109	L-tryptophan	1	1.58	0.200	80.0	 	0.180	
+16390 14-Dec-04	UCVA-03630	Whole Breast Milk	4 Mo	16390	16390.12142004	PostpartumTransmission24	PostpartumTransmission	83	L-kynurenine	1	0.160	0.0250	10.0	 	0.796	
+16390 14-Dec-04	UCVA-03630	Whole Breast Milk	4 Mo	16390	16390.12142004	PostpartumTransmission24	PostpartumTransmission	83	L-tryptophan	1	0.200	0.200	80.0	 	0.796	
+16540 12/Jan/2005	UCVA-04237	Whole Breast Milk	4 Mo	16540	16540.01122005	PostpartumTransmission12	PostpartumTransmission	88	L-kynurenine	1	0.120	0.0250	10.0	 	0.551	
+16540 12/Jan/2005	UCVA-04237	Whole Breast Milk	4 Mo	16540	16540.01122005	PostpartumTransmission12	PostpartumTransmission	88	L-tryptophan	1	0.219	0.200	80.0	 	0.551	
+16900 13/Dec/2004	UCVA-03865	Whole Breast Milk	4 Mo	16900	16900.12132004	PostpartumTransmission12	PostpartumTransmission	85	L-kynurenine	1	0.0590	0.0250	10.0	 	0.276	
+16900 13/Dec/2004	UCVA-03865	Whole Breast Milk	4 Mo	16900	16900.12132004	PostpartumTransmission12	PostpartumTransmission	85	L-tryptophan	1	0.214	0.200	80.0	 	0.276	
+16940 16-Dec-04	UCVA-04617	Whole Breast Milk	4 Mo	16940	16940.12162004	PostpartumTransmission24	PostpartumTransmission	96	L-kynurenine	1	0.103	0.0250	10.0	 	0.321	
+16940 16-Dec-04	UCVA-04617	Whole Breast Milk	4 Mo	16940	16940.12162004	PostpartumTransmission24	PostpartumTransmission	96	L-tryptophan	1	0.322	0.200	80.0	 	0.321	
+17360 21/Jun/2005	UCVA-04510	Whole Breast Milk	4 Mo	17360	17360.06212005	HEU-Survived	HEU-Survived	75	L-kynurenine	1	0.321	0.0250	10.0	 	0.697	
+17360 21/Jun/2005	UCVA-04510	Whole Breast Milk	4 Mo	17360	17360.06212005	HEU-Survived	HEU-Survived	75	L-tryptophan	1	0.461	0.200	80.0	 	0.697	
+20110 17/Dec/2001	UCVA-04594	Whole Breast Milk	4 Mo	20110	20110.12172001	HEU-Survived	HEU-Survived	76	L-kynurenine	1	0.268	0.0250	10.0	 	0.654	
+20110 17/Dec/2001	UCVA-04594	Whole Breast Milk	4 Mo	20110	20110.12172001	HEU-Survived	HEU-Survived	76	L-tryptophan	1	0.410	0.200	80.0	 	0.654	
+20150 29/Oct/2001	UCVA-04547	Whole Breast Milk	4 Mo	20150	20150.10292001	HUU-Survived	HUU	16	L-kynurenine	1	0.328	0.0250	10.0	 	0.459	
+20150 29/Oct/2001	UCVA-04547	Whole Breast Milk	4 Mo	20150	20150.10292001	HUU-Survived	HUU	16	L-tryptophan	1	0.715	0.200	80.0	 	0.459	
+20150 29/Oct/2001		Plasma	4 Mo	20150	20150.10292001.Plasma	HUU		110	L-kynurenine	1	0.478	0.0250	10.0	 	0.0572	
+20150 29/Oct/2001		Plasma	4 Mo	20150	20150.10292001.Plasma	HUU		110	L-tryptophan	1	8.36	0.200	80.0	 	0.0572	
+20250 25/Feb/2002	UCVA-03927	Whole Breast Milk	4 Mo	20250	20250.02252002	EarlyMucosalTransmission	EarlyMucosalTransmission	26	L-kynurenine	1	0.205	0.0250	10.0	 	0.415	
+20250 25/Feb/2002	UCVA-03927	Whole Breast Milk	4 Mo	20250	20250.02252002	EarlyMucosalTransmission	EarlyMucosalTransmission	26	L-tryptophan	1	0.494	0.200	80.0	 	0.415	
+20320 11/Jan/2002	UCVA-04302	Whole Breast Milk	4 Mo	20320	20320.01112002	EarlyMucosalTransmission	EarlyMucosalTransmission	33	L-kynurenine	1	0.128	0.0250	10.0	 	0.871	
+20320 11/Jan/2002	UCVA-04302	Whole Breast Milk	4 Mo	20320	20320.01112002	EarlyMucosalTransmission	EarlyMucosalTransmission	33	L-tryptophan	1	0.147	0.200	80.0	BLOQ	0.871	
+20370 17/Jan/2002	UCVA-04339	Whole Breast Milk	4 Mo	20370	20370.01172002	HEU-Survived	HEU-Survived	69	L-kynurenine	1	0.518	0.0250	10.0	 	0.714	
+20370 17/Jan/2002	UCVA-04339	Whole Breast Milk	4 Mo	20370	20370.01172002	HEU-Survived	HEU-Survived	69	L-tryptophan	1	0.726	0.200	80.0	 	0.714	
+20370 17/Jan/2002		Plasma	4 Mo	20370	20370.01172002.Plasma	HEU-Survived		111	L-kynurenine	1	0.58	0.0250	10.0	 	0.0574	
+20370 17/Jan/2002		Plasma	4 Mo	20370	20370.01172002.Plasma	HEU-Survived		111	L-tryptophan	1	10.1	0.200	80.0	 	0.0574	
+20380 15/Apr/2002	UCVA-04621	Whole Breast Milk	4 Mo	20380	20380.04152002	PostpartumTransmission12	PostpartumTransmission	97	L-kynurenine	1	0.344	0.0250	10.0	 	0.571	
+20380 15/Apr/2002	UCVA-04621	Whole Breast Milk	4 Mo	20380	20380.04152002	PostpartumTransmission12	PostpartumTransmission	97	L-tryptophan	1	0.602	0.200	80.0	 	0.571	
+20800 05/Apr/2002	UCVA-04832	Whole Breast Milk	4 Mo	20800	20800.04052002	EarlyMucosalTransmission	EarlyMucosalTransmission	38	L-kynurenine	1	0.101	0.0250	10.0	 	0.445	
+20800 05/Apr/2002	UCVA-04832	Whole Breast Milk	4 Mo	20800	20800.04052002	EarlyMucosalTransmission	EarlyMucosalTransmission	38	L-tryptophan	1	0.227	0.200	80.0	 	0.445	
+20900 27/Dec/2002	UCVA-04516	Whole Breast Milk	4 Mo	20900	20900.12272002	HUU-Survived	HUU	15	L-kynurenine	1	0.135	0.0250	10.0	 	0.208	
+20900 27/Dec/2002	UCVA-04516	Whole Breast Milk	4 Mo	20900	20900.12272002	HUU-Survived	HUU	15	L-tryptophan	1	0.650	0.200	80.0	 	0.208	
+20980 22/Apr/2002	UCVA-04811	Whole Breast Milk	4 Mo	20980	20980.04222002	PostpartumTransmission12	PostpartumTransmission	100	L-kynurenine	1	0.226	0.0250	10.0	 	0.395	
+20980 22/Apr/2002	UCVA-04811	Whole Breast Milk	4 Mo	20980	20980.04222002	PostpartumTransmission12	PostpartumTransmission	100	L-tryptophan	1	0.572	0.200	80.0	 	0.395	
+20990 03/Apr/2002	UCVA-03992	Whole Breast Milk	4 Mo	20990	20990.04032002	HUU-Survived	HUU	8	L-kynurenine	1	0.0738	0.0250	10.0	 	0.160	
+20990 03/Apr/2002	UCVA-03992	Whole Breast Milk	4 Mo	20990	20990.04032002	HUU-Survived	HUU	8	L-tryptophan	1	0.461	0.200	80.0	 	0.160	
+20990 03/Apr/2002		Plasma	4 Mo	20990	20990.04032002.Plasma	HUU		112	L-kynurenine	1	0.278	0.0250	10.0	 	0.0291	
+20990 03/Apr/2002		Plasma	4 Mo	20990	20990.04032002.Plasma	HUU		112	L-tryptophan	1	9.54	0.200	80.0	 	0.0291	
+21040 02/May/2002	UCVA-04244	Whole Breast Milk	4 Mo	21040	21040.05022002	HUU-Survived	HUU	10	L-kynurenine	1	0.0618	0.0250	10.0	 	0.0804	
+21040 02/May/2002	UCVA-04244	Whole Breast Milk	4 Mo	21040	21040.05022002	HUU-Survived	HUU	10	L-tryptophan	1	0.769	0.200	80.0	 	0.0804	
+21180 19/Apr/2002	UCVA-04404	Whole Breast Milk	4 Mo	21180	21180.04192002	HUU-Survived	HUU	13	L-kynurenine	1	0.0521	0.0250	10.0	 	0.158	
+21180 19/Apr/2002	UCVA-04404	Whole Breast Milk	4 Mo	21180	21180.04192002	HUU-Survived	HUU	13	L-tryptophan	1	0.330	0.200	80.0	 	0.158	
+21180 19/Apr/2002		Plasma	4 Mo	21180	21180.04192002.Plasma	HUU		113	L-kynurenine	1	0.343	0.0250	10.0	 	0.0474	
+21180 19/Apr/2002		Plasma	4 Mo	21180	21180.04192002.Plasma	HUU		113	L-tryptophan	1	7.24	0.200	80.0	 	0.0474	
+21200 03/Oct/2002	UCVA-03773	Whole Breast Milk	4 Mo	21200	21200.10032002	PostpartumTransmission12	PostpartumTransmission	84	L-kynurenine	1	0.162	0.0250	10.0	 	0.598	
+21200 03/Oct/2002	UCVA-03773	Whole Breast Milk	4 Mo	21200	21200.10032002	PostpartumTransmission12	PostpartumTransmission	84	L-tryptophan	1	0.272	0.200	80.0	 	0.598	
+21250 03/May/2002	UCVA-04912	Whole Breast Milk	4 Mo	21250	21250.05032002	HUU-Survived	HUU	20	L-kynurenine	1	0.0330	0.0250	10.0	 	0.0661	
+21250 03/May/2002	UCVA-04912	Whole Breast Milk	4 Mo	21250	21250.05032002	HUU-Survived	HUU	20	L-tryptophan	1	0.499	0.200	80.0	 	0.0661	
+21310 17/May/2002	UCVA-05126	Whole Breast Milk	4 Mo	21310	21310.05172002	HEU-Died-12	HEU-Died	60	L-kynurenine	1	0.253	0.0250	10.0	 	0.462	
+21310 17/May/2002	UCVA-05126	Whole Breast Milk	4 Mo	21310	21310.05172002	HEU-Died-12	HEU-Died	60	L-tryptophan	1	0.548	0.200	80.0	 	0.462	
+21420 08/May/2002	UCVA-03814	Whole Breast Milk	4 Mo	21420	21420.05082002	HUU-Survived	HUU	5	L-kynurenine	1	0.194	0.0250	10.0	 	0.432	
+21420 08/May/2002	UCVA-03814	Whole Breast Milk	4 Mo	21420	21420.05082002	HUU-Survived	HUU	5	L-tryptophan	1	0.449	0.200	80.0	 	0.432	
+21470 13/May/2002	UCVA-03647	Whole Breast Milk	4 Mo	21470	21470.05132002	HUU-Survived	HUU	2	L-kynurenine	1	0.176	0.0250	10.0	 	0.288	
+21470 13/May/2002	UCVA-03647	Whole Breast Milk	4 Mo	21470	21470.05132002	HUU-Survived	HUU	2	L-tryptophan	1	0.612	0.200	80.0	 	0.288	
+21570 20/May/2002	UCVA-03934	Whole Breast Milk	4 Mo	21570	21570.05202002	HUU-Survived	HUU	7	L-kynurenine	1	0.117	0.0250	10.0	 	0.132	
+21570 20/May/2002	UCVA-03934	Whole Breast Milk	4 Mo	21570	21570.05202002	HUU-Survived	HUU	7	L-tryptophan	1	0.889	0.200	80.0	 	0.132	
+21570 20/May/2002		Plasma	4 Mo	21570	21570.05202002.Plasma	HUU		114	L-kynurenine	1	0.463	0.0250	10.0	 	0.0396	
+21570 20/May/2002		Plasma	4 Mo	21570	21570.05202002.Plasma	HUU		114	L-tryptophan	1	11.7	0.200	80.0	 	0.0396	
+21650 12/Sep/2002	UCVA-04881	Whole Breast Milk	4 Mo	21650	21650.09122002	HEU-Died-12	HEU-Died	55	L-kynurenine	1	0.0418	0.0250	10.0	 	0.224	
+21650 12/Sep/2002	UCVA-04881	Whole Breast Milk	4 Mo	21650	21650.09122002	HEU-Died-12	HEU-Died	55	L-tryptophan	1	0.187	0.200	80.0	BLOQ	0.224	
+21690 29/Jul/2002	UCVA-05047	Whole Breast Milk	4 Mo	21690	21690.07292002	HEU-Survived	HEU-Survived	81	L-kynurenine	1	0.222	0.0250	10.0	 	0.550	
+21690 29/Jul/2002	UCVA-05047	Whole Breast Milk	4 Mo	21690	21690.07292002	HEU-Survived	HEU-Survived	81	L-tryptophan	1	0.403	0.200	80.0	 	0.550	
+21690 29/Jul/2002		Plasma	4 Mo	21690	21690.07292002.Plasma	HEU-Survived		115	L-kynurenine	1	0.419	0.0250	10.0	 	0.0520	
+21690 29/Jul/2002		Plasma	4 Mo	21690	21690.07292002.Plasma	HEU-Survived		115	L-tryptophan	1	8.05	0.200	80.0	 	0.0520	
+21760 08/Jul/2002	UCVA-05056	Whole Breast Milk	4 Mo	21760	21760.07082002	EarlyMucosalTransmission	EarlyMucosalTransmission	40	L-kynurenine	1	0.137	0.0250	10.0	 	0.667	
+21760 08/Jul/2002	UCVA-05056	Whole Breast Milk	4 Mo	21760	21760.07082002	EarlyMucosalTransmission	EarlyMucosalTransmission	40	L-tryptophan	1	0.205	0.200	80.0	 	0.667	
+22050 04/Oct/2002	UCVA-04840	Whole Breast Milk	4 Mo	22050	22050.10042002	PostpartumTransmission12	PostpartumTransmission	101	L-kynurenine	1	0.379	0.0250	10.0	 	0.558	
+22050 04/Oct/2002	UCVA-04840	Whole Breast Milk	4 Mo	22050	22050.10042002	PostpartumTransmission12	PostpartumTransmission	101	L-tryptophan	1	0.679	0.200	80.0	 	0.558	
+22060 26/Sep/2002	UCVA-03716	Whole Breast Milk	4 Mo	22060	22060.09262002	HUU-Survived	HUU	4	L-kynurenine	1	0.239	0.0250	10.0	 	0.335	
+22060 26/Sep/2002	UCVA-03716	Whole Breast Milk	4 Mo	22060	22060.09262002	HUU-Survived	HUU	4	L-tryptophan	1	0.713	0.200	80.0	 	0.335	
+22060 26/Sep/2002		Plasma	4 Mo	22060	22060.09262002.Plasma	HUU		116	L-kynurenine	1	0.38	0.0250	10.0	 	0.0397	
+22060 26/Sep/2002		Plasma	4 Mo	22060	22060.09262002.Plasma	HUU		116	L-tryptophan	1	9.56	0.200	80.0	 	0.0397	
+22140 13/Dec/2002	UCVA-04480	Whole Breast Milk	4 Mo	22140	22140.12132002	EarlyMucosalTransmission	EarlyMucosalTransmission	35	L-kynurenine	1	0.100	0.0250	10.0	 	0.629	
+22140 13/Dec/2002	UCVA-04480	Whole Breast Milk	4 Mo	22140	22140.12132002	EarlyMucosalTransmission	EarlyMucosalTransmission	35	L-tryptophan	1	0.159	0.200	80.0	BLOQ	0.629	
+22150 25/Sep/2002	UCVA-04989	Whole Breast Milk	4 Mo	22150	22150.09252002	HEU-Died-12	HEU-Died	57	L-kynurenine	1	0.0286	0.0250	10.0	 	0.110	
+22150 25/Sep/2002	UCVA-04989	Whole Breast Milk	4 Mo	22150	22150.09252002	HEU-Died-12	HEU-Died	57	L-tryptophan	1	0.260	0.200	80.0	 	0.110	
+22180 06/Dec/2002	UCVA-03788	Whole Breast Milk	4 Mo	22180	22180.12062002	HEU-Survived	HEU-Survived	64	L-kynurenine	1	0.182	0.0250	10.0	 	0.483	
+22180 06/Dec/2002	UCVA-03788	Whole Breast Milk	4 Mo	22180	22180.12062002	HEU-Survived	HEU-Survived	64	L-tryptophan	1	0.378	0.200	80.0	 	0.483	
+22180 06/Dec/2002		Plasma	4 Mo	22180	22180.12062002.Plasma	HEU-Survived		117	L-kynurenine	1	0.463	0.0250	10.0	 	0.182	
+22180 06/Dec/2002		Plasma	4 Mo	22180	22180.12062002.Plasma	HEU-Survived		117	L-tryptophan	1	2.54	0.200	80.0	 	0.182	
+22290 27/Dec/2002	UCVA-03596	Whole Breast Milk	4 Mo	22290	22290.12272002	HEU-Survived	HEU-Survived	62	L-kynurenine	1	0.232	0.0250	10.0	 	0.349	
+22290 27/Dec/2002	UCVA-03596	Whole Breast Milk	4 Mo	22290	22290.12272002	HEU-Survived	HEU-Survived	62	L-tryptophan	1	0.666	0.200	80.0	 	0.349	
+22320 26-Feb-03	UCVA-03889	Whole Breast Milk	4 Mo	22320	22320.02262003	HEU-Died-24	HEU-Died	45	L-kynurenine	1	0.407	0.0250	10.0	 	0.691	
+22320 26-Feb-03	UCVA-03889	Whole Breast Milk	4 Mo	22320	22320.02262003	HEU-Died-24	HEU-Died	45	L-tryptophan	1	0.589	0.200	80.0	 	0.691	
+22410 28/Feb/2003	UCVA-03795	Whole Breast Milk	4 Mo	22410	22410.02282003	EarlyMucosalTransmission	EarlyMucosalTransmission	24	L-kynurenine	1	0.0708	0.0250	10.0	 	NQ	
+22410 28/Feb/2003	UCVA-03795	Whole Breast Milk	4 Mo	22410	22410.02282003	EarlyMucosalTransmission	EarlyMucosalTransmission	24	L-tryptophan	1	NQ	0.200	80.0	 	NQ	
+22460 18/Nov/2002	UCVA-03689	Whole Breast Milk	4 Mo	22460	22460.11182002	EarlyMucosalTransmission	EarlyMucosalTransmission	23	L-kynurenine	1	0.0493	0.0250	10.0	 	0.150	
+22460 18/Nov/2002	UCVA-03689	Whole Breast Milk	4 Mo	22460	22460.11182002	EarlyMucosalTransmission	EarlyMucosalTransmission	23	L-tryptophan	1	0.329	0.200	80.0	 	0.150	
+22620 30-Dec-02	UCVA-03893	Whole Breast Milk	4 Mo	22620	22620.12302002	HEU-Died-24	HEU-Died	46	L-kynurenine	1	0.199	0.0250	10.0	 	0.615	
+22620 30-Dec-02	UCVA-03893	Whole Breast Milk	4 Mo	22620	22620.12302002	HEU-Died-24	HEU-Died	46	L-tryptophan	1	0.323	0.200	80.0	 	0.615	
+22670 24/Mar/2003	UCVA-04530	Whole Breast Milk	4 Mo	22670	22670.03242003	PostpartumTransmission12	PostpartumTransmission	93	L-kynurenine	1	0.915	0.0250	10.0	 	1.77	
+22670 24/Mar/2003	UCVA-04530	Whole Breast Milk	4 Mo	22670	22670.03242003	PostpartumTransmission12	PostpartumTransmission	93	L-tryptophan	1	0.516	0.200	80.0	 	1.77	
+22690 17/Feb/2003	UCVA-04884	Whole Breast Milk	4 Mo	22690	22690.02172003	HEU-Survived	HEU-Survived	80	L-kynurenine	1	0.157	0.0250	10.0	 	0.343	
+22690 17/Feb/2003	UCVA-04884	Whole Breast Milk	4 Mo	22690	22690.02172003	HEU-Survived	HEU-Survived	80	L-tryptophan	1	0.458	0.200	80.0	 	0.343	
+22770 28/Apr/2003	UCVA-04143	Whole Breast Milk	4 Mo	22770	22770.04282003	EarlyMucosalTransmission	EarlyMucosalTransmission	29	L-kynurenine	1	0.0775	0.0250	10.0	 	0.267	
+22770 28/Apr/2003	UCVA-04143	Whole Breast Milk	4 Mo	22770	22770.04282003	EarlyMucosalTransmission	EarlyMucosalTransmission	29	L-tryptophan	1	0.290	0.200	80.0	 	0.267	
+22800 06/Mar/2003	UCVA-04669	Whole Breast Milk	4 Mo	22800	22800.03062003	HEU-Survived	HEU-Survived	77	L-kynurenine	1	0.0730	0.0250	10.0	 	0.195	
+22800 06/Mar/2003	UCVA-04669	Whole Breast Milk	4 Mo	22800	22800.03062003	HEU-Survived	HEU-Survived	77	L-tryptophan	1	0.373	0.200	80.0	 	0.195	
+22800 06/Mar/2003		Plasma	4 Mo	22800	22800.03062003.Plasma	HEU-Survived		118	L-kynurenine	1	0.343	0.0250	10.0	 	0.117	
+22800 06/Mar/2003		Plasma	4 Mo	22800	22800.03062003.Plasma	HEU-Survived		118	L-tryptophan	1	2.92	0.200	80.0	 	0.117	
+23060 12/Jun/2003	UCVA-04311	Whole Breast Milk	4 Mo	23060	23060.06122003	HEU-Died-12	HEU-Died	50	L-kynurenine	1	0.0929	0.0250	10.0	 	0.424	
+23060 12/Jun/2003	UCVA-04311	Whole Breast Milk	4 Mo	23060	23060.06122003	HEU-Died-12	HEU-Died	50	L-tryptophan	1	0.219	0.200	80.0	 	0.424	
+23080 03/Feb/2003	UCVA-03962	Whole Breast Milk	4 Mo	23080	23080.02032003	EarlyMucosalTransmission	EarlyMucosalTransmission	27	L-kynurenine	1	0.0666	0.0250	10.0	 	0.336	
+23080 03/Feb/2003	UCVA-03962	Whole Breast Milk	4 Mo	23080	23080.02032003	EarlyMucosalTransmission	EarlyMucosalTransmission	27	L-tryptophan	1	0.198	0.200	80.0	BLOQ	0.336	
+23300 23/Jun/2003	UCVA-04415	Whole Breast Milk	4 Mo	23300	23300.06232003	HEU-Survived	HEU-Survived	70	L-kynurenine	1	0.184	0.0250	10.0	 	1.05	
+23300 23/Jun/2003	UCVA-04415	Whole Breast Milk	4 Mo	23300	23300.06232003	HEU-Survived	HEU-Survived	70	L-tryptophan	1	0.174	0.200	80.0	BLOQ	1.05	
+23360 11/Aug/2003	UCVA-03870	Whole Breast Milk	4 Mo	23360	23360.08112003	PostpartumTransmission12	PostpartumTransmission	86	L-kynurenine	1	0.203	0.0250	10.0	 	0.840	
+23360 11/Aug/2003	UCVA-03870	Whole Breast Milk	4 Mo	23360	23360.08112003	PostpartumTransmission12	PostpartumTransmission	86	L-tryptophan	1	0.242	0.200	80.0	 	0.840	
+23540 13/Aug/2003	UCVA-04423	Whole Breast Milk	4 Mo	23540	23540.08132003	PostpartumTransmission12	PostpartumTransmission	91	L-kynurenine	1	0.0917	0.0250	10.0	 	0.217	
+23540 13/Aug/2003	UCVA-04423	Whole Breast Milk	4 Mo	23540	23540.08132003	PostpartumTransmission12	PostpartumTransmission	91	L-tryptophan	1	0.424	0.200	80.0	 	0.217	
+23600 28/Apr/2003	UCVA-04489	Whole Breast Milk	4 Mo	23600	23600.04282003	HEU-Survived	HEU-Survived	72	L-kynurenine	1	0.124	0.0250	10.0	 	0.333	
+23600 28/Apr/2003	UCVA-04489	Whole Breast Milk	4 Mo	23600	23600.04282003	HEU-Survived	HEU-Survived	72	L-tryptophan	1	0.372	0.200	80.0	 	0.333	
+23740 3-Jul-03	UCVA-04317	Whole Breast Milk	4 Mo	23740	23740.07032003	HEU-Died-24	HEU-Died	51	L-kynurenine	1	0.0334	0.0250	10.0	 	0.135	
+23740 3-Jul-03	UCVA-04317	Whole Breast Milk	4 Mo	23740	23740.07032003	HEU-Died-24	HEU-Died	51	L-tryptophan	1	0.247	0.200	80.0	 	0.135	
+23840 03/Sep/2003	UCVA-03822	Whole Breast Milk	4 Mo	23840	23840.09032003	HEU-Survived	HEU-Survived	65	L-kynurenine	1	0.112	0.0250	10.0	 	0.311	
+23840 03/Sep/2003	UCVA-03822	Whole Breast Milk	4 Mo	23840	23840.09032003	HEU-Survived	HEU-Survived	65	L-tryptophan	1	0.359	0.200	80.0	 	0.311	
+23840 03/Sep/2003		Plasma	4 Mo	23840	23840.09032003.Plasma	HEU-Survived		119	L-kynurenine	1	0.539	0.0250	10.0	 	0.0903	
+23840 03/Sep/2003		Plasma	4 Mo	23840	23840.09032003.Plasma	HEU-Survived		119	L-tryptophan	1	5.97	0.200	80.0	 	0.0903	
+23970 2-Jun-03	UCVA-03754	Whole Breast Milk	4 Mo	23970	23970.06022003	HEU-Died-24	HEU-Died	44	L-kynurenine	1	1.64	0.0250	10.0	 	3.44	
+23970 2-Jun-03	UCVA-03754	Whole Breast Milk	4 Mo	23970	23970.06022003	HEU-Died-24	HEU-Died	44	L-tryptophan	1	0.478	0.200	80.0	 	3.44	
+24070 08/Sep/2003	UCVA-05032	Whole Breast Milk	4 Mo	24070	24070.09082003	EarlyMucosalTransmission	EarlyMucosalTransmission	39	L-kynurenine	1	0.214	0.0250	10.0	 	0.683	
+24070 08/Sep/2003	UCVA-05032	Whole Breast Milk	4 Mo	24070	24070.09082003	EarlyMucosalTransmission	EarlyMucosalTransmission	39	L-tryptophan	1	0.313	0.200	80.0	 	0.683	
+24130 31/Jul/2003	UCVA-04322	Whole Breast Milk	4 Mo	24130	24130.07312003	HEU-Survived	HEU-Survived	67	L-kynurenine	1	0.122	0.0250	10.0	 	0.543	
+24130 31/Jul/2003	UCVA-04322	Whole Breast Milk	4 Mo	24130	24130.07312003	HEU-Survived	HEU-Survived	67	L-tryptophan	1	0.225	0.200	80.0	 	0.543	
+24130 31/Jul/2003		Plasma	4 Mo	24130	24130.07312003.Plasma	HEU-Survived		120	L-kynurenine	1	0.474	0.0250	10.0	 	0.150	
+24130 31/Jul/2003		Plasma	4 Mo	24130	24130.07312003.Plasma	HEU-Survived		120	L-tryptophan	1	3.16	0.200	80.0	 	0.150	
+24440 30/Jul/2003	UCVA-04467	Whole Breast Milk	4 Mo	24440	24440.07302003	HEU-Survived	HEU-Survived	71	L-kynurenine	1	0.0985	0.0250	10.0	 	0.336	
+24440 30/Jul/2003	UCVA-04467	Whole Breast Milk	4 Mo	24440	24440.07302003	HEU-Survived	HEU-Survived	71	L-tryptophan	1	0.293	0.200	80.0	 	0.336	
+24440 30/Jul/2003		Plasma	4 Mo	24440	24440.07302003.Plasma	HEU-Survived		121	L-kynurenine	1	0.735	0.0250	10.0	 	0.149	
+24440 30/Jul/2003		Plasma	4 Mo	24440	24440.07302003.Plasma	HEU-Survived		121	L-tryptophan	1	4.93	0.200	80.0	 	0.149	
+24710 29-Aug-03	UCVA-03903	Whole Breast Milk	4 Mo	24710	24710.08292003	HEU-Died-24	HEU-Died	47	L-kynurenine	1	0.130	0.0250	10.0	 	0.517	
+24710 29-Aug-03	UCVA-03903	Whole Breast Milk	4 Mo	24710	24710.08292003	HEU-Died-24	HEU-Died	47	L-tryptophan	1	0.252	0.200	80.0	 	0.517	
+25000 27/Oct/2003	UCVA-04497	Whole Breast Milk	4 Mo	25000	25000.10272003	PostpartumTransmission12	PostpartumTransmission	92	L-kynurenine	1	0.289	0.0250	10.0	 	1.08	
+25000 27/Oct/2003	UCVA-04497	Whole Breast Milk	4 Mo	25000	25000.10272003	PostpartumTransmission12	PostpartumTransmission	92	L-tryptophan	1	0.267	0.200	80.0	 	1.08	
+25020 29/Sep/2003	UCVA-03611	Whole Breast Milk	4 Mo	25020	25020.09292003	HEU-Survived	HEU-Survived	63	L-kynurenine	1	0.337	0.0250	10.0	 	0.434	
+25020 29/Sep/2003	UCVA-03611	Whole Breast Milk	4 Mo	25020	25020.09292003	HEU-Survived	HEU-Survived	63	L-tryptophan	1	0.776	0.200	80.0	 	0.434	
+25020 29/Sep/2003		Plasma	4 Mo	25020	25020.09292003.Plasma	HEU-Survived		122	L-kynurenine	1	0.405	0.0250	10.0	 	0.0462	
+25020 29/Sep/2003		Plasma	4 Mo	25020	25020.09292003.Plasma	HEU-Survived		122	L-tryptophan	1	8.76	0.200	80.0	 	0.0462	
+25270 27/Oct/2003	UCVA-03620	Whole Breast Milk	4 Mo	25270	25270.10272003	EarlyMucosalTransmission	EarlyMucosalTransmission	22	L-kynurenine	1	0.344	0.0250	10.0	 	2.00	
+25270 27/Oct/2003	UCVA-03620	Whole Breast Milk	4 Mo	25270	25270.10272003	EarlyMucosalTransmission	EarlyMucosalTransmission	22	L-tryptophan	1	0.172	0.200	80.0	BLOQ	2.00	
+25650 09/Jan/2004	UCVA-04676	Whole Breast Milk	4 Mo	25650	25650.01092004	PostpartumTransmission12	PostpartumTransmission	98	L-kynurenine	1	0.535	0.0250	10.0	 	0.945	
+25650 09/Jan/2004	UCVA-04676	Whole Breast Milk	4 Mo	25650	25650.01092004	PostpartumTransmission12	PostpartumTransmission	98	L-tryptophan	1	0.566	0.200	80.0	 	0.945	
+25710 05/Apr/2004	UCVA-04217	Whole Breast Milk	4 Mo	25710	25710.04052004	EarlyMucosalTransmission	EarlyMucosalTransmission	30	L-kynurenine	1	0.0751	0.0250	10.0	 	0.254	
+25710 05/Apr/2004	UCVA-04217	Whole Breast Milk	4 Mo	25710	25710.04052004	EarlyMucosalTransmission	EarlyMucosalTransmission	30	L-tryptophan	1	0.296	0.200	80.0	 	0.254	
+25920 18/Jun/2004	UCVA-04501	Whole Breast Milk	4 Mo	25920	25920.06182004	HEU-Survived	HEU-Survived	73	L-kynurenine	1	0.0587	0.0250	10.0	 	0.303	
+25920 18/Jun/2004	UCVA-04501	Whole Breast Milk	4 Mo	25920	25920.06182004	HEU-Survived	HEU-Survived	73	L-tryptophan	1	0.194	0.200	80.0	BLOQ	0.303	
+25920 18/Jun/2004		Plasma	4 Mo	25920	25920.06182004.Plasma	HEU-Survived		123	L-kynurenine	1	0.319	0.0250	10.0	 	0.0506	
+25920 18/Jun/2004		Plasma	4 Mo	25920	25920.06182004.Plasma	HEU-Survived		123	L-tryptophan	1	6.31	0.200	80.0	 	0.0506	
+26000 03/May/2004	UCVA-04288	Whole Breast Milk	4 Mo	26000	26000.05032004	HUU-Survived	HUU	11	L-kynurenine	1	0.238	0.0250	10.0	 	0.229	
+26000 03/May/2004	UCVA-04288	Whole Breast Milk	4 Mo	26000	26000.05032004	HUU-Survived	HUU	11	L-tryptophan	1	1.04	0.200	80.0	 	0.229	
+26000 03/May/2004		Plasma	4 Mo	26000	26000.05032004.Plasma	HUU		124	L-kynurenine	1	0.399	0.0250	10.0	 	0.0555	
+26000 03/May/2004		Plasma	4 Mo	26000	26000.05032004.Plasma	HUU		124	L-tryptophan	1	7.19	0.200	80.0	 	0.0555	
+26620 16/Aug/2004	UCVA-04609	Whole Breast Milk	4 Mo	26620	26620.08162004	PostpartumTransmission12	PostpartumTransmission	95	L-kynurenine	1	0.220	0.0250	10.0	 	0.316	
+26620 16/Aug/2004	UCVA-04609	Whole Breast Milk	4 Mo	26620	26620.08162004	PostpartumTransmission12	PostpartumTransmission	95	L-tryptophan	1	0.697	0.200	80.0	 	0.316	
+26630 31/Aug/2004	UCVA-04852	Whole Breast Milk	4 Mo	26630	26630.08312004	HEU-Died-12	HEU-Died	54	L-kynurenine	1	0.116	0.0250	10.0	 	0.246	
+26630 31/Aug/2004	UCVA-04852	Whole Breast Milk	4 Mo	26630	26630.08312004	HEU-Died-12	HEU-Died	54	L-tryptophan	1	0.474	0.200	80.0	 	0.246	
+26740 09/Aug/2004	UCVA-04042	Whole Breast Milk	4 Mo	26740	26740.08092004	HUU-Survived	HUU	9	L-kynurenine	1	0.0351	0.0250	10.0	 	0.130	
+26740 09/Aug/2004	UCVA-04042	Whole Breast Milk	4 Mo	26740	26740.08092004	HUU-Survived	HUU	9	L-tryptophan	1	0.271	0.200	80.0	 	0.130	
+26740 09/Aug/2004		Plasma	4 Mo	26740	26740.08092004.Plasma	HUU		125	L-kynurenine	1	0.411	0.0250	10.0	 	0.0458	
+26740 09/Aug/2004		Plasma	4 Mo	26740	26740.08092004.Plasma	HUU		125	L-tryptophan	1	8.98	0.200	80.0	 	0.0458	
+26810 18/Aug/2004	UCVA-03832	Whole Breast Milk	4 Mo	26810	26810.08182004	EarlyMucosalTransmission	EarlyMucosalTransmission	25	L-kynurenine	1	0.580	0.0250	10.0	 	1.08	
+26810 18/Aug/2004	UCVA-03832	Whole Breast Milk	4 Mo	26810	26810.08182004	EarlyMucosalTransmission	EarlyMucosalTransmission	25	L-tryptophan	1	0.535	0.200	80.0	 	1.08	
+27260 7-Apr-05	UCVA-05141	Whole Breast Milk	4 Mo	27260	27260.04072005	HEU-Died-24	HEU-Died	61	L-kynurenine	1	0.174	0.0250	10.0	 	0.537	
+27260 7-Apr-05	UCVA-05141	Whole Breast Milk	4 Mo	27260	27260.04072005	HEU-Died-24	HEU-Died	61	L-tryptophan	1	0.324	0.200	80.0	 	0.537	

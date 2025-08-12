@@ -1,0 +1,100 @@
+metadata_variable	type	baseline	useForPERMANOVA	useForLCA	useForNB	Aim
+SampleID	character					
+BarcodeSequence	character					
+LinkerPrimerSequence	character					
+LDMS	character					
+Treatment	factor	Sample				
+SampleType	factor	BMK				
+PairID	factor					
+NIHNumber	factor					
+MomBB	factor					
+BBAge	numeric		yes		no	
+Run	factor					
+Library	factor					
+Delivery	factor	Vaginal				
+Ethnicity	factor					
+Description	character					
+NumReads	numeric					
+Sample	factor	BMK				
+SubjectID	factor					
+BBAgeBinned	factor	1-30				
+BBAgeBinned2	factor	1-90				
+HIVStatus	factor	Negative	yes		yes	
+CD4Count	numeric					
+CD4CountBinned	factor	1-350	no		no	
+MomAntibiotics	factor	No	yes		no	
+InfantAntibiotics	factor	No				
+MomBMI	numeric		yes		no	
+MomBMIBinned	factor	Normal				
+ViralLoad	numeric					
+ViralLoadBinned	factor	1-1000	no		no	
+BabyGender	factor	Female	yes		no	
+Parity	numeric		yes		no	
+ParityBinned	factor	1				
+Firstborn	factor	No				
+MomAge	numeric		yes		no	
+MomAgeBinned	factor	15-20				
+MomAgeBinned2	factor	16-26				
+BreastProblems	factor	No	yes		no	
+ExclusiveBF	factor	No	yes		no	
+ZWEI	numeric					
+ZWEIBinned	factor	Normal_to_Overweight				
+ZLEN	numeric					
+ZLENBinned	factor	Normalish				
+ipcr	factor	0				
+Diversity	numeric					
+Evenness	numeric					
+FL2nm	numeric					
+FL3nm	numeric					
+LNnTnm	numeric					
+SL3nm	numeric					
+LNTnm	numeric					
+LNFP1nm	numeric					
+LNFP2nm	numeric					
+LNFP3nm	numeric					
+LSTbnm	numeric					
+LSTcnm	numeric					
+DFLNTnm	numeric					
+DSLNTnm	numeric					
+FLNHnm	numeric					
+DFLNHnm	numeric					
+FDSLNHnm	numeric					
+DSLNHnm	numeric					
+SUMnm	numeric					
+FL2ug	numeric					
+FL3ug	numeric					
+LNnTug	numeric					
+SL3ug	numeric					
+LNTug	numeric					
+LNFP1ug	numeric					
+LNFP2ug	numeric					
+LNFP3ug	numeric					
+LSTbug	numeric					
+LSTcug	numeric					
+DFLNTug	numeric					
+DSLNTug	numeric					
+FLNHug	numeric					
+DFLNHug	numeric					
+FDSLNHug	numeric					
+DSLNHug	numeric					
+SUMug	numeric					
+FL2ug_per	numeric					
+FL3ug_per	numeric					
+LNnTug_per	numeric					
+SL3ug_per	numeric					
+LNTug_per	numeric					
+LNFP1ug_per	numeric					
+LNFP2ug_per	numeric					
+LNFP3ug_per	numeric					
+LSTbug_per	numeric					
+LSTcug_per	numeric					
+DFLNTug_per	numeric					
+DSLNTug_per	numeric					
+FLNHug_per	numeric					
+DFLNHug_per	numeric					
+FDSLNHug_per	numeric					
+DSLNHug_per	numeric					
+per_fucosylated	numeric					
+per_sialylated	numeric					
+Secretor	factor	Non_secretor				
+Lewis	factor	Negative				
