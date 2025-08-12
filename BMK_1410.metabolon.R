@@ -1080,6 +1080,135 @@ print(p)
 
 
 ##########################################################################################################
+## sub-analysis of WWH vs WWoH among those whose children survived the study course (cd==0)
+mapping.non_cd <- subset(mapping.sel, cd==0)
+
+## tableOne
+demo <- unique(mapping.non_cd[, c("ID1", demo_vars)])
+demo$CD4_gt_350 <- ifelse(demo$CD4C > 350, ">350", "<=350")
+demo$CD4_gt_300 <- ifelse(demo$CD4C > 300, ">300", "<=300")
+demo$CD4_gt_200 <- ifelse(demo$CD4C > 200, ">200", "<=200")
+for (strata_var in c("Group2", "Group3", "HIVExposure")) {
+	tab1 <- CreateTableOne(vars=c(demo_vars, "CD4_gt_350", "CD4_gt_300", "CD4_gt_200"), strata=c(strata_var), data=demo, smd=T)
+	write.table(print(tab1, noSpaces=T), file=sprintf("%s/Table_1.%s.%s.txt", output_dir, "non_cd", strata_var), quote=F, sep="\t", row.names=T, col.names=T)
+	write.table(print(tab1, noSpaces=T, nonnormal=demo_vars), file=sprintf("%s/Table_1_nonnormal.%s.%s.txt", output_dir, "non_cd", strata_var), quote=F, sep="\t", row.names=T, col.names=T)
+}
+
+## linear regression (stratified by Visit, cd==0)
+mapping.non_cd <- subset(mapping.sel, cd==0)
+mlevel <- "BIOCHEMICAL"; data.sel <- df.metabolon[["BIOCHEMICAL"]][rownames(mapping.non_cd),]
+name_map <- data.frame(original=colnames(data.sel), valid=make.names(colnames(data.sel))); rownames(name_map) <- name_map$valid; colnames(data.sel) <- make.names(colnames(data.sel))
+sds <- apply(data.sel, 2, sd); to_remove <- names(which(sds==0)); data.sel <- data.sel[, setdiff(colnames(data.sel), to_remove)] # remove metabolites with zero variance
+df <- merge(data.sel, mapping.non_cd, by="row.names"); 
+#	df[, mvar] <- factor(as.character(df[,mvar]), levels=rev(levels(df[,mvar]))) # reverse levels to get more intuitive contrast
+res <- {}
+for (mvar in c("HIVExposure")) {
+	enable_weights <- mvar %in% weights.list
+	for (metabolite in colnames(data.sel)) {
+		if (enable_weights) {
+			mod <- lmer(as.formula(sprintf("%s ~ %s*Visit + (1 | ID1)", metabolite, mvar)), data=df, weights=df$weight); modelstr <- "LM"
+		} else {
+			mod <- lmer(as.formula(sprintf("%s ~ %s*Visit + (1 | ID1)", metabolite, mvar)), data=df); modelstr <- "LM"
+		}
+		emm <- emmeans(mod, as.formula(sprintf("trt.vs.ctrl ~ %s | Visit", mvar)), adjust="none")
+		tmp <- as.data.frame(emm$contrasts) 
+		tmp$metabolite <- name_map[metabolite, "original"]; tmp$metadata_variable <- mvar; tmp$model <- modelstr; tmp$weighted <- enable_weights
+		res <- rbind(res, tmp)
+	}
+}
+res <- res[,c("metabolite", setdiff(colnames(res), "metabolite"))]
+res$padj <- p.adjust(res$p.value, method="fdr")
+res <- res[order(res$p.value, decreasing=F),]
+res$dir <- ifelse(res$padj < siglevel, ifelse(sign(res$estimate)==1, "up", "down"), "NS")
+res$exp_estimate <- exp(res$estimate)
+for (addvar in c("COMP_ID", "HMDB", "KEGG", "PUBCHEM", "PLATFORM", "SUB.PATHWAY", "SUPER.PATHWAY")) {
+	res[, addvar] <- metabolon_map[as.character(res$metabolite), addvar]
+}
+write.table(res, file=sprintf("%s/emmeans.%s.%s.txt", output_dir, "All_vs_HUU", "non_cd"), quote=F, sep="\t", row.names=F, col.names=T)
+# volcano plots and rank-order plots
+res <- read.table(sprintf("%s/emmeans.%s.%s.txt", output_dir, "All_vs_HUU", "non_cd"), header=T, as.is=T, sep="\t", quote="", comment.char="")
+res$contrast <- factor(res$contrast); res$Visit <- droplevels(factor(res$Visit, levels=visits))
+res$dir <- ifelse(res$padj < siglevel, ifelse(sign(res$estimate)==1, "up", "down"), "NS") # updated dir based on padj=0.05 cutoff
+for (mv in unique(res$metadata_variable)) {
+	df <- subset(res, metadata_variable==mv); df$contrast <- droplevels(df$contrast)
+	for (ct in levels(df$contrast)) {
+		df2 <- subset(df, contrast==ct & !is.na(estimate))
+		df2$Visit <- droplevels(df2$Visit)
+		lims <- max(abs(df2$estimate), na.rm=T)
+		pl <- list()
+		for (visit in levels(df2$Visit)) {
+			df3 <- subset(df2, Visit==visit)
+			df3$siglabel <- ifelse(df3$dir=="NS", ifelse(df3$metabolite %in% always_label, df3$metabolite, NA), df3$metabolite)
+			df3$dir <- ifelse(df3$dir == "NS", ifelse(df3$metabolite %in% always_label, "manual", "NS"), df3$dir)
+#			df3$padj <- pmax(df3$padj, 0.001) # censor at padj < 0.001 to improve plotting
+			p <- ggplot(df3, aes(x=estimate, y=-log10(padj), color=dir)) + geom_point() + geom_text_repel(aes(label=siglabel), size=3, max.overlaps=15) + theme_classic() + ggtitle(sprintf("%s, %s (cd==0)", ct, visit)) + geom_hline(yintercept=-log10(siglevel)) + scale_color_manual(values=dircolors) + xlim(c(-lims, lims)) + theme(title=element_text(size=10), axis.text=element_text(size=8, color="black"), axis.title=element_text(size=8))
+			pl[[length(pl)+1]] <- p
+#			print(p)
+
+			df3 <- df3[order(df3$estimate),]
+			df3$rank <- 1:nrow(df3)
+			p <- ggplot(df3, aes(x=rank, y=estimate, color=dir)) + geom_point(size=2) + geom_text_repel(aes(label=siglabel), size=1.5, max.overlaps=15) + theme_classic() + ggtitle(sprintf("%s, %s (cd==0)", ct, visit)) + scale_color_manual(values=dircolors) + theme(title=element_text(size=10), axis.text=element_text(size=8, color="black"), axis.title=element_text(size=8))
+			pl[[length(pl)+1]] <- p
+		}
+		multiplot(plotlist=pl, cols=2, rows=2)
+	}
+}
+
+## linear regression (averaged over Visit, cd==0)
+mapping.non_cd <- subset(mapping.sel, cd==0)
+mlevel <- "BIOCHEMICAL"; data.sel <- df.metabolon[["BIOCHEMICAL"]][rownames(mapping.non_cd),]
+name_map <- data.frame(original=colnames(data.sel), valid=make.names(colnames(data.sel))); rownames(name_map) <- name_map$valid; colnames(data.sel) <- make.names(colnames(data.sel))
+sds <- apply(data.sel, 2, sd); to_remove <- names(which(sds==0)); data.sel <- data.sel[, setdiff(colnames(data.sel), to_remove)] # remove metabolites with zero variance
+df <- merge(data.sel, mapping.non_cd, by="row.names"); 
+#	df[, mvar] <- factor(as.character(df[,mvar]), levels=rev(levels(df[,mvar]))) # reverse levels to get more intuitive contrast
+res <- {}
+for (mvar in c("HIVExposure")) {
+	enable_weights <- mvar %in% weights.list
+	for (metabolite in colnames(data.sel)) {
+		if (enable_weights) {
+			mod <- lmer(as.formula(sprintf("%s ~ %s*Visit + (1 | ID1)", metabolite, mvar)), data=df, weights=df$weight); modelstr <- "LM"
+		} else {
+			mod <- lmer(as.formula(sprintf("%s ~ %s*Visit + (1 | ID1)", metabolite, mvar)), data=df); modelstr <- "LM"
+		}
+		emm <- emmeans(mod, as.formula(sprintf("trt.vs.ctrl ~ %s", mvar)), adjust="none")
+		tmp <- as.data.frame(emm$contrasts) 
+		tmp$metabolite <- name_map[metabolite, "original"]; tmp$metadata_variable <- mvar; tmp$model <- modelstr; tmp$weighted <- enable_weights
+		res <- rbind(res, tmp)
+	}
+}
+res <- res[,c("metabolite", setdiff(colnames(res), "metabolite"))]
+res$padj <- p.adjust(res$p.value, method="fdr")
+res <- res[order(res$p.value, decreasing=F),]
+res$dir <- ifelse(res$padj < siglevel, ifelse(sign(res$estimate)==1, "up", "down"), "NS")
+res$exp_estimate <- exp(res$estimate)
+for (addvar in c("COMP_ID", "HMDB", "KEGG", "PUBCHEM", "PLATFORM", "SUB.PATHWAY", "SUPER.PATHWAY")) {
+	res[, addvar] <- metabolon_map[as.character(res$metabolite), addvar]
+}
+write.table(res, file=sprintf("%s/emmeans.%s.%s.txt", output_dir, "All_vs_HUU", "non_cd_averaged_over_Visit"), quote=F, sep="\t", row.names=F, col.names=T)
+# volcano plots and rank-order plots
+res <- read.table(sprintf("%s/emmeans.%s.%s.txt", output_dir, "All_vs_HUU", "non_cd_averaged_over_Visit"), header=T, as.is=T, sep="\t", quote="", comment.char="")
+res$contrast <- factor(res$contrast)
+for (mv in unique(res$metadata_variable)) {
+	df <- subset(res, metadata_variable==mv); df$contrast <- droplevels(df$contrast)
+	for (ct in levels(df$contrast)) {
+		df2 <- subset(df, contrast==ct & !is.na(estimate))
+		lims <- max(abs(df2$estimate), na.rm=T)
+		df3 <- df2
+		df3$siglabel <- ifelse(df3$dir=="NS", ifelse(df3$metabolite %in% always_label, df3$metabolite, NA), df3$metabolite)
+		df3$dir <- ifelse(df3$dir == "NS", ifelse(df3$metabolite %in% always_label, "manual", "NS"), df3$dir)
+		df3$padj <- pmax(df3$padj, 0.001) # censor at padj < 0.001 to improve plotting
+		p <- ggplot(df3, aes(x=estimate, y=-log10(padj), color=dir)) + geom_point() + geom_text_repel(aes(label=siglabel), size=1.5, max.overlaps=15) + theme_classic() + ggtitle(sprintf("%s, averaged over Visit (cd==0)", ct)) + geom_hline(yintercept=-log10(siglevel)) + scale_color_manual(values=dircolors) + xlim(c(-lims, lims)) + theme(title=element_text(size=10), axis.text=element_text(size=8, color="black"), axis.title=element_text(size=8))
+		print(p)
+		
+		df3 <- df3[order(df3$estimate),]
+		df3$rank <- 1:nrow(df3)
+		p <- ggplot(df3, aes(x=rank, y=estimate, color=dir)) + geom_point(size=2) + geom_text_repel(aes(label=siglabel), size=1.0, max.overlaps=35) + theme_classic() + ggtitle(sprintf("%s, averaged over Visit (cd==0)", ct)) + scale_color_manual(values=dircolors) + theme(title=element_text(size=10), axis.text=element_text(size=8, color="black"), axis.title=element_text(size=8))
+		print(p)
+	}
+}
+
+
+##########################################################################################################
 ### analysis of quantitative KT data (n=101 BMK, n=121 plasma)
 
 matrices <- c("BMK", "Plasma")
@@ -1235,7 +1364,7 @@ for (mvar in c("HIVExposure")) {
 	for (matrix in matrices) {
 		data.sel <- combined[[matrix]]
 		df <- merge(data.sel, mapping)
-		outliers_to_remove <- read.table(sprintf("/Lab_Share/ZEBS/metabolon/Quantitative_KT.outliers_removed.txt"), header=T, colClasses="character", as.is=T, sep="\t")
+		outliers_to_remove <- read.table(sprintf("%s/Quantitative_KT.outliers_removed.txt", output_dir), header=T, colClasses="character", as.is=T, sep="\t")
 	# remove outliers
 		df <- subset(df, !(SampleID %in% outliers_to_remove$SampleID))
 		

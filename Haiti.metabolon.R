@@ -284,11 +284,58 @@ for (mv in unique(res$metadata_variable)) {
 	}
 }
 
+
+## linear regression (with BBAge as a covariate)
+mlevel <- "BIOCHEMICAL"; data.sel <- df.metabolon[["BIOCHEMICAL"]][rownames(mapping.sel),]
+name_map <- data.frame(original=colnames(data.sel), valid=make.names(colnames(data.sel))); rownames(name_map) <- name_map$valid; colnames(data.sel) <- make.names(colnames(data.sel))
+sds <- apply(data.sel, 2, sd); to_remove <- names(which(sds==0)); data.sel <- data.sel[, setdiff(colnames(data.sel), to_remove)] # remove metabolites with zero variance
+df <- merge(data.sel, mapping.sel, by="row.names"); 
+res <- {}
+for (mvar in c("HIVStatus")) {
+	enable_weights <- mvar %in% weights.list
+	for (metabolite in colnames(data.sel)) {
+		mod <- lm(as.formula(sprintf("%s ~ %s + BBAge", metabolite, mvar)), data=df); modelstr <- "LM"
+		emm <- emmeans(mod, as.formula(sprintf("trt.vs.ctrl ~ %s", mvar)), adjust="none")
+		tmp <- as.data.frame(emm$contrasts) 
+		tmp$metabolite <- name_map[metabolite, "original"]; tmp$metadata_variable <- mvar; tmp$model <- modelstr
+		res <- rbind(res, tmp)
+	}
+}
+res <- res[,c("metabolite", setdiff(colnames(res), "metabolite"))]
+res$padj <- p.adjust(res$p.value, method="fdr")
+res <- res[order(res$p.value, decreasing=F),]
+res$dir <- ifelse(res$padj < siglevel, ifelse(sign(res$estimate)==1, "up", "down"), "NS")
+res$exp_estimate <- exp(res$estimate)
+for (addvar in c("COMP_ID", "HMDB", "KEGG", "PUBCHEM", "PLATFORM", "SUB.PATHWAY", "SUPER.PATHWAY")) {
+	res[, addvar] <- metabolon_map[as.character(res$metabolite), addvar]
+}
+write.table(res, file=sprintf("%s/emmeans.%s.%s.with_BBAge.txt", output_dir, "Haiti", mvar), quote=F, sep="\t", row.names=F, col.names=T)
+# volcano plots and circular dendrogram (Circos-style) plots
+res <- read.table(sprintf("%s/emmeans.%s.%s.with_BBAge.txt", output_dir, "Haiti", mvar), header=T, as.is=T, sep="\t", quote="", comment.char="")
+res$contrast <- factor(res$contrast)
+for (mv in unique(res$metadata_variable)) {
+	df <- subset(res, metadata_variable==mv); df$contrast <- droplevels(df$contrast)
+	for (ct in levels(df$contrast)) {
+		df2 <- subset(df, contrast==ct & !is.na(estimate))
+		lims <- max(abs(df2$estimate), na.rm=T)
+		pl <- list()
+		
+		df2$siglabel <- ifelse(df2$dir=="NS", ifelse(df2$metabolite %in% always_label, df2$metabolite, NA), df2$metabolite)
+		df2$dir <- ifelse(df2$dir == "NS", ifelse(df2$metabolite %in% always_label, "manual", "NS"), df2$dir)
+		df2$padj <- pmax(df2$padj, 0.001) # censor at padj < 0.001 to improve plotting
+		p <- ggplot(df2, aes(x=estimate, y=-log10(padj), color=dir)) + geom_point() + geom_text_repel(aes(label=siglabel), size=3, max.overlaps=15) + theme_classic() + ggtitle(sprintf("%s %s (+BBAge)", mv, ct)) + geom_hline(yintercept=-log10(siglevel)) + scale_color_manual(values=dircolors) + xlim(c(-lims, lims)) + theme(title=element_text(size=10), axis.text=element_text(size=8, color="black"), axis.title=element_text(size=8))
+		print(p)
+		p <- ggplot(df2, aes(x=estimate, y=-log10(p.value), color=dir)) + geom_point() + geom_text_repel(aes(label=siglabel), size=3, max.overlaps=15) + theme_classic() + ggtitle(sprintf("%s %s (+BBAge, unadjusted p)", mv, ct)) + geom_hline(yintercept=-log10(siglevel)) + scale_color_manual(values=dircolors) + xlim(c(-lims, lims)) + theme(title=element_text(size=10), axis.text=element_text(size=8, color="black"), axis.title=element_text(size=8))
+		print(p)
+	}
+}
+
+
 ## comparison of linear regression coefficients from Haiti versus ZEBS
 visits.selected <- c("1 Wk", "1 Mo", "4 Mo", "4.5 Mo", "6 Mo", "9 Mo", "12 Mo", "15 Mo", "18 Mo")
 res.zebs <- read.table(sprintf("%s/emmeans.%s.%s.txt", output_dir, "All_vs_HUU", "all_visits"), header=T, as.is=T, sep="\t", quote="", comment.char="")
 res.zebs$contrast <- factor(res.zebs$contrast)
-res <- read.table(sprintf("%s/emmeans.%s.%s.txt", output_dir, "Haiti", mvar), header=T, as.is=T, sep="\t", quote="", comment.char="")
+res <- read.table(sprintf("%s/emmeans.%s.%s.with_BBAge.txt", output_dir, "Haiti", mvar), header=T, as.is=T, sep="\t", quote="", comment.char="")
 res$contrast <- factor(res$contrast)
 
 sel.metabolites <- intersect(res.zebs$metabolite, res$metabolite)
